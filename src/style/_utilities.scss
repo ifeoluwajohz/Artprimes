@@ -1,0 +1,36 @@
+$Background-color: #ffffff;
+$Secondary-color: #AA8800;
+$Text-color-light: #f0f0f0;
+$Primary-text-color: #B2B2B2;
+$Secondary-text-color: #082f3d;
+$Secondary-background-color: #082f3d;
+$Text-color-dark: #646464;
+$Text-error: #ff6060;
+
+
+
+//screen sizes 
+$mobile-screen : 500px;
+$tablet-screen : 930px;
+
+
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url(/src/fonts/MontserratAlternates-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat-A-Light';
+    src: url(/src/fonts/MontserratAlternates-Light-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/src/fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url(/src/fonts/Montserrat-Light.otf);
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="26" viewBox="0 0 102 26">
+  <g id="LOGO" transform="translate(-171.712 -31)">
+    <path id="Polygon_2" data-name="Polygon 2" d="M25.44,6.535a4.053,4.053,0,0,1,7.119,0l3.978,7.3A4.053,4.053,0,0,0,38.2,15.478h0a4.053,4.053,0,0,1-2.43,7.6l-6.237-.82a4.053,4.053,0,0,0-1.057,0l-6.237.82a4.053,4.053,0,0,1-2.43-7.6h0a4.053,4.053,0,0,0,1.658-1.641Z" transform="translate(172.712 31)" fill="#ad80e1"/>
+    <text id="ArtPrimes" transform="translate(222.712 51)" fill="#fff" font-size="20" font-family="MontserratAlternates-SemiBold, Montserrat Alternates" font-weight="600"><tspan x="-50.87" y="0">ArtPrimes</tspan></text>
+  </g>
+</svg>

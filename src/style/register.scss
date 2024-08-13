@@ -1,0 +1,100 @@
+@import 'utilities';
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat Alternates';
+}
+body{
+    background-color: $Background-color;
+}
+.container{
+    text-align: center;
+    h1{
+        color: $Secondary-text-color;
+        font-size: 2rem;
+        font-weight: bolder;
+        padding-top: 4rem;
+        padding-bottom: 40px;
+    }
+
+
+    h2{
+        color:$Text-color-dark;
+        font-size: 18px;
+        padding: 20px auto;
+        span{
+            color: $Secondary-color;
+        }
+    }
+    form{
+        input{
+            margin: 9px 5px;
+            padding: 8px 3rem;
+            border: none;
+            color: $Secondary-background-color;
+            border: $Secondary-background-color 1px solid;
+            font-size: 12px;
+            
+            &::placeholder{
+                color: $Secondary-background-color;
+                font-weight: lighter;
+                font-size: 13px;
+            }
+            &:focus{
+                outline: none;
+            }
+        }
+        .error{
+            color: $Text-error;
+            font-size: 12px;
+        }
+        
+        button{
+            background-color: $Secondary-color;
+            cursor: pointer;
+            padding: 7px 16px;
+            margin-top: 10px;
+            color: $Text-color-light;
+            border: none;
+            font-style: bolder;
+            font-size: 16px;
+        }
+        h4{
+            color: $Text-color-dark;
+            font-weight: bold;
+            font-size: 16px;
+            margin: 10px;
+            span{
+                color: $Secondary-color;
+                cursor: pointer;
+            }
+        }
+    }
+    .newuser{
+        color: $Text-color-dark;  
+        font-weight: bold;
+        font-size: 16px;
+        font-family: 'Montserrat';
+        margin: 10px;
+        text-align: center;
+        span{
+            color: $Secondary-color;
+            cursor: pointer;
+        }
+    }
+    .changemail,p{
+        margin: 10px auto;
+        font-size: 14px;
+        color: $Secondary-text-color;
+        text-decoration: none;
+        cursor: pointer;
+        text-align: center;
+
+    }
+    .Link{
+        text-decoration: none;
+
+    }
+}

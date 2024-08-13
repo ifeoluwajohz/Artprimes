@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.692" height="34.475" viewBox="0 0 41.692 34.475">
+  <g id="trolley" transform="translate(-766.417 -4506.853)">
+    <g id="cart" transform="translate(767.418 4507.853)">
+      <path id="Path_1" data-name="Path 1" d="M4771.48,4682.854s-.411,0,.887,0h.46c1.843,0,7.426,0,7.426,0l.633,3.161,1.845,7.761,2.71,10.244a3.918,3.918,0,0,0-2.206.976,2.087,2.087,0,0,0-.5,1.847,2,2,0,0,0,1.942,1.749c1.51.036,13.479-.08,18.128-.013s2.032.035,2.032.035" transform="translate(-4771.418 -4682.853)" fill="none" stroke="#646464" stroke-width="2"/>
+      <path id="Path_2" data-name="Path 2" d="M4901.847,4747.57h29.45l-1.833,6.329-2.77,9.529s.036.216-.359.359-16.577,0-16.577,0h-4.1" transform="translate(-4891.937 -4742.652)" fill="none" stroke="#646464" stroke-width="2"/>
+      <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(12.493 27.404)" fill="none" stroke="#646464" stroke-width="2">
+        <circle cx="3.035" cy="3.035" r="3.035" stroke="none"/>
+        <circle cx="3.035" cy="3.035" r="2.035" fill="none"/>
+      </g>
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(29.49 27.404)" fill="none" stroke="#646464" stroke-width="2">
+        <circle cx="3.035" cy="3.035" r="3.035" stroke="none"/>
+        <circle cx="3.035" cy="3.035" r="2.035" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

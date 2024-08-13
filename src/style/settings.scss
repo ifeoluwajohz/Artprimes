@@ -1,0 +1,48 @@
+
+form{
+    padding: 20px;
+    margin:  30px 120px;
+    button{
+        background: #000000;
+        color: #d8d8d8;
+        padding: 10px 15px ;
+        margin-top: 40px;
+    }
+}
+form h1{
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    p{
+        font-size: 18px;
+    }
+}
+input{
+    background: #e9e9e9;
+    font-size: 80%;
+    border: none;
+    width: 80%;
+    padding: 20px;
+}
+input:focus{
+    // border: rgb(121, 121, 121) 1px solid;
+    outline: none;
+    color: black;
+
+    
+}
+.fullname,.tel_number, .userName, .userAddress, .userGender{
+    padding: 7px;
+    font-size: 90%;
+    font-weight: lighter;
+    color: rgb(126, 126, 126);
+}
+.fullname,.tel_number, .userName, .userAddress, .userGender:focus{
+    border: rgb(121, 121, 121) 1px solid;
+    outline: none;
+    color: black;
+}
