@@ -1,7 +1,7 @@
-
+@import 'utilities';
 form{
     padding: 20px;
-    margin:  30px 120px;
+    margin:  30px 20%;
     button{
         background: #000000;
         color: #d8d8d8;
@@ -45,4 +45,17 @@ input:focus{
     border: rgb(121, 121, 121) 1px solid;
     outline: none;
     color: black;
+}
+
+@media screen and (max-width: $mobile-screen){
+    form{
+        padding: 20px;
+        margin:  10px 10%;
+        button{
+            background: #000000;
+            color: #d8d8d8;
+            padding: 10px 15px ;
+            margin-top: 40px;
+        }
+    }
 }

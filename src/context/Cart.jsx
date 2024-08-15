@@ -17,7 +17,7 @@ export const CartProvider = ({children}) => {
         const fetchCartItems = async () => {
             setisLoading(true);
             try {
-                const response = await fetch(`http://localhost:7000/user/cart`, {
+                const response = await fetch(`https://artprimes-backend.onrender.com/user/cart`, {
                     method: 'GET',
                     credentials: 'include'
                 });
@@ -58,7 +58,7 @@ export const CartProvider = ({children}) => {
             setCartItems(newItems);
             return newItems;
         });
-        const url = `http://localhost:7000/user/cart/add/?productId=${productId}`
+        const url = `https://artprimes-backend.onrender.com/user/cart/add/?productId=${productId}`
 
         const data = {
             quantity : 1
@@ -104,7 +104,7 @@ export const CartProvider = ({children}) => {
             }
             return prevItems;
         })
-        const url = `http://localhost:7000/user/cart/update?productId=${productId}`
+        const url = `https://artprimes-backend.onrender.com/user/cart/update?productId=${productId}`
         const data = {
             action : "decrease",
             quantity : 1
@@ -130,7 +130,7 @@ export const CartProvider = ({children}) => {
     }
 
     const removeItem = async (ProductId) => {
-        const url = `http://localhost:7000/user/cart/productId=${ProductId}`
+        const url = `https://artprimes-backend.onrender.com/user/cart/productId=${ProductId}`
         
         const data = {
             productId: ProductId.productId
@@ -154,7 +154,7 @@ export const CartProvider = ({children}) => {
     }
     const clearCart = async () => {
         setCartItems([])
-        const url = `http://localhost:7000/user/cart`
+        const url = `https://artprimes-backend.onrender.com/user/cart`
 
         try{
             const response = await fetch(url, {

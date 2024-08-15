@@ -1,6 +1,22 @@
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url(/src/fonts/MontserratAlternates-Regular.otf);
+}
+@font-face {
+  font-family: "Montserrat-A-Light";
+  src: url(/src/fonts/MontserratAlternates-Light-Regular.otf);
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/src/fonts/Montserrat-Regular.otf);
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(/src/fonts/Montserrat-Light.otf);
+}
 form {
   padding: 20px;
-  margin: 30px 120px;
+  margin: 30px 20%;
 }
 form button {
   background: #000000;
@@ -47,4 +63,17 @@ input:focus {
   border: rgb(121, 121, 121) 1px solid;
   outline: none;
   color: black;
+}
+
+@media screen and (max-width: 500px) {
+  form {
+    padding: 20px;
+    margin: 10px 10%;
+  }
+  form button {
+    background: #000000;
+    color: #d8d8d8;
+    padding: 10px 15px;
+    margin-top: 40px;
+  }
 }

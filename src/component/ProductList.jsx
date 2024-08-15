@@ -20,7 +20,7 @@ const ProductList = () => {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const response = await axios.get(`http://localhost:7000/product?searchTerm=${category}`);
+        const response = await axios.get(`https://artprimes-backend.onrender.com/product?searchTerm=${category}`);
         setProducts(response.data);
       } catch (error) {
         setError('Error fetching products:', error.message);

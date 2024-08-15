@@ -11,7 +11,7 @@ export const useSignup = () => {
   const signup = async (fullname, email, password) => {
     setError(null)
 
-    const response = await fetch('http://localhost:7000/user/signup', {
+    const response = await fetch('https://artprimes-backend.onrender.com/user/signup', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({ fullname, email, password }),

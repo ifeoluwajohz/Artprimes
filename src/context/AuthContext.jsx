@@ -38,7 +38,7 @@ export const AuthContextProvider = ({ children }) => {
 
     const LOGOUT = async () => {
         try {
-            const response = await fetch('http://localhost:7000/user/logout', {
+            const response = await fetch('https://artprimes-backend.onrender.com/user/logout', {
                 method: 'GET',
                 credentials: 'include', // Include cookies in the request
             });

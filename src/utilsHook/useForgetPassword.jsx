@@ -14,7 +14,7 @@ export const useForgetPassword = () => {
     setIsLoading(true)
     setError(null)
 
-    const response = await fetch('http://localhost:7000/user/forget_password', {
+    const response = await fetch('https://artprimes-backend.onrender.com/user/forget_password', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({ email })

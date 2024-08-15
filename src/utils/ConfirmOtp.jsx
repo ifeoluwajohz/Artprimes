@@ -26,7 +26,7 @@ const ConfirmOTP = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch(`http://localhost:7000/user/confirm_otp`, {
+            const response = await fetch(`https://artprimes-backend.onrender.com/user/confirm_otp`, {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({ email, code }),

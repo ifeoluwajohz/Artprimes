@@ -28,7 +28,7 @@ const NewPassword = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch(`http://localhost:7000/user/change_password`, {
+            const response = await fetch(`https://artprimes-backend.onrender.com/user/change_password`, {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({ email, newPassword }),

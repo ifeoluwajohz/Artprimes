@@ -25,7 +25,7 @@ const ProductView = () => {
       const fetchData = async () => {
         setLoading(true);
         try {
-          const response = await axios.get(`http://localhost:7000/productId?productId=${productId}`);
+          const response = await axios.get(`https://artprimes-backend.onrender.com/productId?productId=${productId}`);
           setProduct(response.data);
         } catch (error) {
           setError('Error fetching products:', error.response.data.error);

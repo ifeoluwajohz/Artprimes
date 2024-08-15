@@ -15,7 +15,7 @@ export const Account_updateProvider = ({children}) => {
         const fetchUserinfo = async () => {
             setisLoading(true);
             try {
-                const response = await fetch('http://localhost:7000/user/settings/account_info', {
+                const response = await fetch('https://artprimes-backend.onrender.com/user/settings/account_info', {
                     method: 'GET',
                     credentials: 'include'
                 });
@@ -48,7 +48,7 @@ export const Account_updateProvider = ({children}) => {
         };
 
         try {
-            const url = `http://localhost:7000/user/settings/account_update`;
+            const url = `https://artprimes-backend.onrender.com/user/settings/account_update`;
 
             const response = await fetch(url, {
                 method: "PATCH",

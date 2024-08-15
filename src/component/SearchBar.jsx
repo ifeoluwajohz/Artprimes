@@ -18,7 +18,7 @@ useEffect(() => {
   const fetchData = async () => {
     setLoading(true);
     try {
-      const response = await axios.get(`http://localhost:7000/product?searchTerm=${searchTerm}&Limit=2`);
+      const response = await axios.get(`https://artprimes-backend.onrender.com/product?searchTerm=${searchTerm}&Limit=2`);
       setProducts(response.data);
     } catch (error) {
       setError('Error fetching products:', error.messgae);
